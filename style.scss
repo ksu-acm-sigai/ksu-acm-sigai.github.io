@@ -1,0 +1,144 @@
+:root {
+
+  --color-sigai-primary: #53298C;
+  --color-sigai-primary-tint: #7B559A;
+  --color-sigai-primary-decimal: 83, 41, 140;
+  --color-sigai-primary-contrast: #FFFFFF;
+  --color-sigai-primary-filter: invert(40%) sepia(5%) saturate(4318%) hue-rotate(230deg) brightness(93%) contrast(92%);
+}
+
+html {
+
+  scroll-behavior: smooth;
+}
+
+nav {
+
+  z-index: 1;
+  background-color: transparent;
+}
+
+section {
+
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+}
+
+.main-header {
+
+  position: relative;
+
+  min-height: 650px;
+  height: 100vh;
+
+  background: url("https://cdn.oreillystatic.com/en/assets/1/event/298/aica2019_og_image.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg-overlay {
+
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(var(--color-sigai-primary-decimal), 0.6);
+}
+
+.club-title {
+
+  width: 80%;
+  margin: auto !important;
+}
+
+.club-description {
+
+  width: 60%;
+  margin: auto !important;
+  font-size: 23;
+}
+
+.main-header > .container {
+
+  z-index: 1;
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  color: white;
+}
+
+.main-header h1 {
+
+    font-size: 4rem;
+}
+
+.main-header hr {
+
+  border: 2px solid var(--color-sigai-primary-contrast);
+  width: 75%;
+}
+
+.btn-listserve {
+
+  color: var(--color-sigai-primary-contrast) !important;
+  background-color: var(--color-sigai-primary-tint) !important;
+}
+
+.listserv-email {
+
+  max-width: 400px;
+  min-width: 300px;
+  margin: auto;
+}
+
+.bg-sigai-tint {
+
+  color: var(--color-sigai-primary-contrast);
+  background-color: var(--color-sigai-primary-tint);
+}
+
+#contact h4 {
+
+  margin-bottom: 20px;
+}
+
+#members hr {
+
+  border: 2px solid var(--color-sigai-primary-contrast);
+  margin-bottom: 30px;
+}
+
+.members img,
+.admins img {
+
+    border: 3px solid var(--color-sigai-primary-contrast);
+    border-radius: 50%;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.members p,
+.admins p {
+
+    font-size: 18px;
+}
+
+.socials a {
+
+  margin: 0 3px 0 3px;
+}
+
+.btn-social {
+
+  width: 60px;
+  height: 60px;
+
+  border: 0;
+  border-radius: 50% !important;
+
+  background: blue;
+}
