@@ -2,6 +2,7 @@
 
   --color-sigai-primary: #53298C;
   --color-sigai-primary-tint: #7B559A;
+  --color-sigai-primary-shade: #3f1678;
   --color-sigai-primary-contrast: #FFFFFF;
   --color-sigai-primary-rgb: 83, 41, 140;
   --color-sigai-primary-filter: invert(40%) sepia(5%) saturate(4318%) hue-rotate(230deg) brightness(93%) contrast(92%);
@@ -190,6 +191,11 @@ section {
 .navbar-brand {
 
   color: var(--color-sigai-primary-tint);
+}
+
+.active {
+
+  color: var(--color-sigai-primary-shade);
 }
 
 #home-link {
